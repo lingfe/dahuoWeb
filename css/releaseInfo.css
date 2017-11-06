@@ -1,0 +1,304 @@
+@charset "utf-8";
+  body{
+  font-family:font:12px/180% Arial, Helvetica, sans-serif, "新宋体";
+  background-image: none;
+}
+/* 筛选selectNumberScreen */
+.screen{
+    width: 980px;
+    height: auto;
+    background-color: #fff;
+    position: relative;
+}
+.selectNumberScreen{
+    width:980px;
+    height:auto;
+    margin:20px auto;
+}
+.screenBox dl{
+    border-bottom:#e6e6e6 1px dashed;
+    width:980px;
+    overflow:hidden;
+}
+.screenBox dl.noborder{
+    border-bottom:0px;
+    border-left:0px;
+    border-top:0px;
+    border-right:0px;
+}
+.screenBox dl.goodstype{
+    border-bottom:#e6e6e6 1px dashed;
+}
+.screenBox dl dt{
+    float:left;
+    height:30px;
+}
+.screenBox dl dt{
+    text-align:right;
+    width:100px;
+    height:22px;
+    font-weight:600;
+    padding-top:8px;
+}
+.screenBox dl dd{
+    position:relative;
+    padding-bottom:5px;
+    padding-left:0px;
+    width:auto;
+    padding-right:48px;
+    float:left;
+    height:25px;
+    overflow:hidden;
+    padding-top:0px;
+}
+.screenBox dl dd a{
+    line-height:14px;
+    margin:11px 10px 0px 5px;
+    display:inline-block;
+    color:#36c;
+    overflow:hidden;
+    text-decoration:none;
+}
+.screenBox dl dd a:hover{
+    background:#39c;
+    color:#fff;
+}
+.screenBox dl dd a.selected{
+    background:#39c;
+    color:#fff;
+}
+.screenBox dl dd span.more{
+    position:absolute;
+    width:39px;
+    display:block;
+    height:14px;
+    top:6px;
+    cursor:pointer;
+    right:1px;
+}
+.screenBox dl dd span.more label{
+    display:inline-block;
+    cursor:pointer;
+}
+.hasBeenSelected{
+    border:#b2d1ff 1px solid;
+    padding:2px;
+    width:784px;
+    margin-top:10px;
+    overflow:hidden;
+}
+.hasBeenSelected dl{
+    width:980px;
+    background:#f6f8fd;
+    overflow:hidden;
+}
+.hasBeenSelected dl dt{
+    float:left;
+}
+.hasBeenSelected dl dd{
+    float:left;
+}
+.hasBeenSelected dl dt{
+    text-align:right;
+    line-height:30px;
+    width:108px;
+    height:30px;
+    font-weight:600;
+}
+.hasBeenSelected dl dd{
+    padding-bottom:4px;
+    padding-left:0px;
+    width:676px;
+    padding-right:0px;
+    padding-top:0px;
+}
+.selectedInfor{
+    border-bottom:#f60 1px solid;
+    position:relative;
+    border-left:#f60 1px solid;
+    padding-bottom:1px;
+    margin:4px 10px 0px 0px;
+    padding-left:5px;
+    padding-right:17px;
+    display:block;
+    white-space:nowrap;
+    background:#fff;
+    float:left;
+    height:17px;
+    border-top:#f60 1px solid;
+    border-right:#f60 1px solid;
+    padding-top:1px;
+}
+.selectedInfor label{
+    color:#f60;
+}
+.eliminateCriteria{
+    line-height:21px;
+    margin-top:4px;
+    width:80px;
+    float:left;
+    color:#f60;
+    cursor:pointer;
+    font-weight:600;
+}
+.selectedInfor em{
+    background:url("../images/close.jpg") no-repeat;
+    cursor:pointer;
+    display:block;
+    height:13px;
+    overflow:hidden;
+    position:absolute;
+    right:2px;
+    top:3px;
+    width:13px;
+}
+
+/*筛选内容*/
+.infocon {
+    width: 980px;
+    height: auto;
+    background-color: #fff;
+    position: relative;
+    margin-top: 20px;
+}
+table {
+    width: 100%;
+}
+table, tr, td {
+    border: 0;
+    line-height: 20px;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+.infocon tr.zzinfo {
+    border-bottom: 1px solid #f8f8f8;
+    height: 170px;
+}
+table, tr, td {
+    border: 0;
+    line-height: 20px;
+}
+.tbimg .zzinfo .img {
+    padding: 8px 0 8px 16px;
+}
+.zzinfo td {
+    vertical-align: middle;
+}
+
+/*内容_图片*/
+.zzinfo td.img a {
+    display: block;
+    text-align: center;
+    overflow: hidden;
+    height: 130px;
+    width: 130px;
+}
+a:link, a:visited {
+    color: #25d;
+}
+a {
+    text-decoration: none;
+}
+.zzinfo .qq_attest .img_attest img {
+    border-radius: 50%;
+    display: inline-block;
+    height: 46px;
+    vertical-align: bottom;
+    width: 46px;
+}
+.zzinfo td.img img {
+    margin-left: 0;
+    position: relative;
+}
+a img {
+    border: 0;
+}
+.zzinfo td.t {
+    padding: 24px 0 29px 40px;
+    position: relative;
+}
+.tbimg .zzinfo td.tc {
+    padding: 8px 0 8px 16px;
+}
+.qq_attest {
+    line-height: 10px;
+}
+
+p {
+    display: block;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
+.qq_attest {
+    line-height: 10px;
+}
+
+.zzinfo .qq_attest .name_add {
+    font-size: 12px;
+    color: #999;
+    margin: 10px 0;
+    line-height: 12px;
+}
+
+.zzinfo .qq_attest .name_add .zz {
+    background-color: #ff5647;
+    border-radius: 2px;
+    color: #fff;
+    padding: 1px;
+    margin-left: 2px;
+}
+.clear {
+    clear: both;
+    display: block;
+    font-size: 0;
+    height: 0;
+    line-height: 0;
+    overflow: hidden;
+}
+.pricebiao, .priceyuan {
+    font-family: "微软雅黑";
+}
+.pricebiao {
+    color: #ff5230;
+    font-size: 12px;
+    line-height: 30px;
+    margin-right: 10px;
+}
+.pricebiao .price {
+    font-size: 18px;
+}
+
+.pricebiao, .priceyuan {
+    font-family: "微软雅黑";
+}
+.priceyuan {
+    color: #999;
+    font-size: 12px;
+    text-decoration: line-through;
+}
+
+.quot {
+    background-image: url(http://img.58cdn.com.cn/ui7/ershou/zzlist/icons.png);
+    width: 15px;
+    height: 14px;
+    background-position: -38px 0;
+    float: left;
+    margin-right: 8px;
+}
+
+.zzinfo .fl {
+    color: #999;
+    font-size: 12px;
+    line-height: 30px;
+    position: absolute;
+    bottom: 15px;
+}
+
+.fl {
+    float: left;
+    display: inline;
+}

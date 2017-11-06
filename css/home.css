@@ -1,0 +1,50 @@
+@CHARSET "UTF-8";
+	/*精品信息*/
+	.dc-head1{
+		/**单行
+		white-space: nowrap;/**强制不换行*/
+/* 		overflow: hidden; *自动隐藏文字
+  		text-overflow: ellipsis;*文字隐藏后添加省略号
+		-o-text-overflow:ellipsis; */ 
+		
+		/*多行*/
+		display: -webkit-box;
+		-webkit-box-orient: vertical;
+		-webkit-line-clamp: 2;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		
+	}
+	
+	/*关于我们*/
+	.footer-box{
+	width:100%;
+	position:relative;
+	padding:7% 0;
+	}
+	.adpack{
+			left: 25px;
+			top: 130px;
+			width:160px;
+			overflow:auto;
+			position:fixed;
+			margin:200px 0 0 20px;
+			float:left;
+			z-index: 1;
+			padding: 7px 0;
+		}
+		#closeTog{
+			display: inline-block;
+			position: absolute;
+			font-weight: bold;
+			right: 10px;
+			color: #F00;
+			top: 6px;
+			z-index: 9;
+			cursor: pointer;
+		}
+
+		.wrapper{
+			width: 100%;
+			height: 33%;
+		}
